@@ -2,13 +2,20 @@
     position: relative;
     display: block;
     top: 0;
-    left: 0
+    left: 0;
+    
+}
+
+.magnifier-thumb-wrapper img{
+ 
+    
 }
 
 .magnifier-lens {
     position: absolute;
     border: solid 1px #ccc;
     z-index: 1000;
+
     top: 0;
     left: 0;
     overflow: hidden
@@ -18,6 +25,7 @@
     position: absolute;
     top: 0;
     left: 0;
+
     border: solid 1px #ccc;
     color: #fff;
     text-align: center;
@@ -40,6 +48,7 @@
 
 .magnifier-preview {
     padding: 0;
+
     width: 100%;
     height: 150px;
     position: relative;
@@ -48,6 +57,7 @@
 
 .magnifier-preview img {
     position: absolute;
+
     top: 0;
     left: 0
 }
@@ -61,8 +71,7 @@
 .hidden {
     display: none
 }
-	m.attach{
-    thumb: '#thumb';
-    large: "images/skull_website.png";
-    largeWrapper: 'preview'
+
+#thumb-lens {
+
 }
